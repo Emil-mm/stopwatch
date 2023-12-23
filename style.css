@@ -1,0 +1,58 @@
+* {
+    font-family: 'Carme', sans-serif;
+    text-align: center;
+    color: #dbdbdb;
+}
+
+body {
+    background-color:rgb(12, 5, 37);
+}
+
+.center {
+    margin: auto;
+    padding: 15px;
+    width: 75%;
+}
+
+.container {
+    display: inline-block;
+    margin: auto;
+    padding: calc(0.25vw + 2px);
+    width: calc(1vw + 25px);
+}
+
+#timer {
+    margin-top: 11vw;
+    font-size: calc(1.5vw + 25px);
+}
+
+#millsecs {
+    font-size: calc(1vw + 20px);
+}
+
+#laps {
+    visibility: hidden;
+    background-color: rgb(35, 31, 49);
+    overflow-y: auto;
+    margin: auto;
+    padding: 15px;
+    width: 45%;
+    min-height: calc(.5vw + 100px);
+    max-height: calc(1.2vw + 200px);
+}
+input {
+    background-color: rgb(35, 31, 49);
+    border-radius: .375em;
+    padding: 5px 5px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+input:hover {
+    background-color: rgb(43, 27, 94);
+}
+
+input:active {
+    background-color: rgb(73, 45, 163);
+    transform: scale(.96);
+}
